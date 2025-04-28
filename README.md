@@ -1,7 +1,7 @@
 <h1>
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="nmsize-dark.png">
-  <source media="(prefers-color-scheme: dark)" srcset="nmsize.png">
+  <source media="(prefers-color-scheme: dark)" srcset="nmsize-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="nmsize.png">
   <img width="460" alt="nmsize - Fast node_modules size scanner" src="nmsize.png" />
 </picture>
 </h1>
