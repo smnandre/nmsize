@@ -35,7 +35,7 @@ usage() {
   echo "      --ignore-dots BOOL    Exclude hidden directories (true/false, default: true)"
   echo "  -V, --version             Show version information"
   echo "  -h, --help                Show this help message"
-  exit 1
+  exit 0
 }
 
 show_version() {
@@ -101,7 +101,7 @@ while [[ $# -gt 0 ]]; do
         shift
       else
         echo "Invalid directory: $1"
-        usage
+        exit 1
       fi
       ;;
   esac
