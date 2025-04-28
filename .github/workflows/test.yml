@@ -26,9 +26,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
+      - name: Setup Bats
+        uses: actions/setup-bats@v1
       - name: Run Bats tests
-        uses: mig4/bats-action@v1
-        with:
-          bats-version: '1.8.2'
-          test-files: 'test/*.bats'
+        run: bats tests/*.bats
