@@ -1,6 +1,27 @@
-# nmsize - Fast node_modules size scanner
+<h1>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="nmsize-dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="nmsize.png">
+  <img width="460" alt="nmsize - Fast node_modules size scanner" src="nmsize.png" />
+</picture>
+</h1>
 
 ⚡ A lightweight CLI tool to list all `node_modules` folders and display their disk usage with a quick summary.
+
+---
+
+<p align="center">
+
+[![Tests](https://img.shields.io/github/actions/workflow/status/smnandre/nmsize/test.yml?label=Tests&logo=github)](https://github.com/smnandre/nmsize/actions/workflows/test.yml)
+
+[![Tests](https://img.shields.io/github/actions/workflow/status/smnandre/nmsize/test.yml?label=Tests&logo=github)](https://github.com/smnandre/nmsize/actions/workflows/test.yml)
+
+</p>
+
+[![License](https://img.shields.io/github/license/smnandre/nmsize?logo=mit)](https://github.com/smnandre/nmsize/blob/main/LICENSE)
+
+[![Version](https://img.shields.io/github/v/tag/smnandre/nmsize?label=Version&logo=semver)](https://github.com/smnandre/nmsize/releases)
+
 
 ## Installation
 
