@@ -8,20 +8,9 @@
 
 ⚡ A lightweight CLI tool to list all `node_modules` folders and display their disk usage with a quick summary.
 
----
-
-<p align="center">
-
-[![Tests](https://img.shields.io/github/actions/workflow/status/smnandre/nmsize/test.yml?label=Tests&logo=github)](https://github.com/smnandre/nmsize/actions/workflows/test.yml)
-
-[![Tests](https://img.shields.io/github/actions/workflow/status/smnandre/nmsize/test.yml?label=Tests&logo=github)](https://github.com/smnandre/nmsize/actions/workflows/test.yml)
-
-</p>
-
-[![License](https://img.shields.io/github/license/smnandre/nmsize?logo=mit)](https://github.com/smnandre/nmsize/blob/main/LICENSE)
-
-[![Version](https://img.shields.io/github/v/tag/smnandre/nmsize?label=Version&logo=semver)](https://github.com/smnandre/nmsize/releases)
-
+[![Tests](https://github.com/smnandre/nmsize/actions/workflows/CI.yaml/badge.svg?color=4AEC1E)](https://github.com/smnandre/nmsize/actions)
+[![Version](https://img.shields.io/github/v/release/smnandre/nmsize?color=E16601)](https://github.com/smnandre/nmsize/releases)
+[![License](https://img.shields.io/github/license/smnandre/nmsize?color=FA190F)](https://github.com/smnandre/nmsize/blob/main/LICENSE)
 
 ## Installation
 
