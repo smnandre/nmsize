@@ -8,7 +8,7 @@
 
 ⚡ A lightweight CLI tool to list all `node_modules` folders and display their disk usage with a quick summary.
 
-[![Tests](https://github.com/smnandre/nmsize/actions/workflows/test.yaml/badge.svg?color=4AEC1E)](https://github.com/smnandre/nmsize/actions)
+[![Tests](https://github.com/smnandre/nmsize/actions/workflows/test.yml/badge.svg?color=4AEC1E)](https://github.com/smnandre/nmsize/actions)
 [![Version](https://img.shields.io/github/v/release/smnandre/nmsize?color=E16601)](https://github.com/smnandre/nmsize/releases)
 [![License](https://img.shields.io/github/license/smnandre/nmsize?color=FA190F)](https://github.com/smnandre/nmsize/blob/main/LICENSE)
 
