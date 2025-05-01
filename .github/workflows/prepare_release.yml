@@ -15,6 +15,9 @@ on:
       pre_release:
         description: 'pre release, true or false'
         default: 'false'
+        
+permissions:
+  contents: write
 
 jobs:
   release:
