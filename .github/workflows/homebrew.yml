@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Bump Homebrew formula
         uses: mislav/bump-homebrew-formula-action@v3
         with:
@@ -20,7 +21,7 @@ jobs:
           download-url: ${{ github.event.release.tarball_url }}
           commit-message: |
             {{formulaName}} {{version}}
-            
+
             Created by https://github.com/smnandre/nmsize/actions/runs/{{runId}}
         env:
           COMMITTER_TOKEN: ${{ secrets.HOMEBREW_TAP_PAT }}
