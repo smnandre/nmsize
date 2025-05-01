@@ -23,7 +23,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Bump version and create release
       - uses: MeilCli/bump-release-action@v2
         with:
           config_path: '.github/bump.yml'
