@@ -1,0 +1,10 @@
+release:
+  title-prefix: 'v'
+  initial-version: '1.0.0'
+  tag-prefix: 'v'
+
+files:
+  - file-path: 'nmsize.sh'
+    line: 14
+    start: 'VERSION="'
+    end: '"'
