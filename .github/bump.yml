@@ -3,6 +3,9 @@ release:
   initial-version: '1.0.0'
   tag-prefix: 'v'
 
+branch:
+  base-branch: 'main'
+
 files:
   - file-path: 'nmsize.sh'
     line: 14
