@@ -26,15 +26,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # necessary to tag and push
+          fetch-depth: 0
 
       - uses: MeilCli/bump-release-action@v2
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           config_path: '.github/bump.yml'
           bump: ${{ github.event.inputs.bump }}
           dry_run: ${{ github.event.inputs.dry_run }}
           draft: ${{ github.event.inputs.draft }}
           pre_release: ${{ github.event.inputs.pre_release }}
-          commit_and_push: true
+          commit_user: true
           commit_user_name: 'github-actions[bot]'
-          commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+          commit_email: '41898282+github-actions[bot]@users.noreply.github.com'
