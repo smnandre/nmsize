@@ -1,9 +1,11 @@
 <h1>
+<a href="https://github.com/smnandre/nmsize">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="nmsize-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="nmsize.png">
   <img width="460" alt="nmsize - Fast node_modules size scanner" src="nmsize.png" />
 </picture>
+</a>
 </h1>
 
 ⚡ A lightweight CLI tool to list all `node_modules` folders and display their disk usage with a quick summary.
@@ -62,4 +64,4 @@ nmsize ~/projects -d 5 -s desc --ignore-dots true
 
 ## License
 
-This Formula is released under the [MIT License](LICENSE).
+[`nmsize`](https://github.com/smnandre/nmsize) is released by [Simon André](https://github.com/smnandre) under the [MIT License](LICENSE).
