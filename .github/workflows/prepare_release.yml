@@ -36,6 +36,5 @@ jobs:
           dry_run: ${{ github.event.inputs.dry_run }}
           draft: ${{ github.event.inputs.draft }}
           pre_release: ${{ github.event.inputs.pre_release }}
-          commit_user: true
-          commit_user_name: 'github-actions[bot]'
+          commit_user: github-actions[bot]
           commit_email: '41898282+github-actions[bot]@users.noreply.github.com'
