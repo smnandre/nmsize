@@ -8,6 +8,5 @@ branch:
 
 files:
   - file-path: 'nmsize.sh'
-    line: 14
     start: 'VERSION="'
     end: '"'
