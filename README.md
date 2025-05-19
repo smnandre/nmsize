@@ -8,11 +8,12 @@
 </a>
 </h1>
 
-⚡ A lightweight CLI tool to list all `node_modules` folders and display their disk usage with a quick summary.
+⚡ Lightweight CLI tool to find your `node_modules` folders and display their disk usage.
 
-[![Tests](https://github.com/smnandre/nmsize/actions/workflows/test.yml/badge.svg?color=4AEC1E)](https://github.com/smnandre/nmsize/actions)
-[![Version](https://img.shields.io/github/v/release/smnandre/nmsize?color=E16601)](https://github.com/smnandre/nmsize/releases)
-[![License](https://img.shields.io/github/license/smnandre/nmsize?color=FA190F)](https://github.com/smnandre/nmsize/blob/main/LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/smnandre-nmsize-080408?style=flat-square&labelColor=181717)](https://github.com/smnandre/nmsize)
+[![Tests](https://img.shields.io/badge/Tests-passing-080408?style=flat-square&labelColor=181717)](https://github.com/smnandre/nmsize/actions)
+[![License](https://img.shields.io/badge/License-MIT-080408?style=flat-square&labelColor=181717)](https://github.com/smnandre/nmsize/blob/main/LICENSE)
+[![Sponsor](https://img.shields.io/badge/Sponsor-me-080408?logo=github-sponsors&style=square&labelColor=181717)](https://github.com/sponsors/smnandre)
 
 ## Installation
 
@@ -45,15 +46,18 @@ If no directory is specified, the current directory `.` is used.
 
 ### Options
 
-```
-Option	                    Description
+```bash
+
+Option                     Description
+
 -d, --depth NUM	            Maximum search depth (default: 10)
 -s, --sort alpha|asc|desc   Sort results by name (alpha), ascending size (asc), or descending size (desc). Default is alpha.
 -l, --limit NUM	            Limit the number of displayed results (default: no limit)
 -i, --ignore PATTERN	    Ignore paths matching the given pattern (can be used multiple times)
 --ignore-dots true|false    Exclude hidden directories (default: true)
 -V, --version	            Display version information
--h, --help	            Show help message
+-h, --help	                Show help message
+
 ```
 
 ### Example

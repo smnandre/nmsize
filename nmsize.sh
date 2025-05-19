@@ -11,7 +11,7 @@ RED="\033[38;5;196m"
 ORANGE="\033[38;5;208m"
 
 PACKAGE="nmsize"
-1.0.1VERSION="1.0.0"
+VERSION="1.0.2"
 
 # Configurable options
 DEPTH=10
