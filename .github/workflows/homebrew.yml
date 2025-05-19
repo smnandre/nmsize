@@ -18,10 +18,10 @@ jobs:
         with:
           formula-name: nmsize
           homebrew-tap: smnandre/homebrew-nmsize
-          download-url: ${{ github.event.release.tarball_url }}
+          # Use your uploaded asset, not the source tarball
+          download-url: ${{ github.event.release.assets[0].browser_download_url }}
           commit-message: |
             {{formulaName}} {{version}}
-
             Created by https://github.com/smnandre/nmsize/actions/runs/{{runId}}
         env:
           COMMITTER_TOKEN: ${{ secrets.HOMEBREW_TAP_PAT }}
